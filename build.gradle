@@ -1,0 +1,15 @@
+group 'com.agileengine'
+version '0.0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.jsoup', name: 'jsoup', version: '1.11.2'
+    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
+}
